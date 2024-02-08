@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "ac69c42ac2e31dadf3f416793da59ed1"
+name = "count-down-app"
+handle = "count-down-app"
+application_url = "https://dt-once-perth-also.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-f16742f1.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://dt-once-perth-also.trycloudflare.com/auth/callback",
+  "https://dt-once-perth-also.trycloudflare.com/auth/shopify/callback",
+  "https://dt-once-perth-also.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false

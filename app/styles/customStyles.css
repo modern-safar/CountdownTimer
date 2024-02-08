@@ -1,0 +1,17 @@
+.a1try {
+  width: 990px;
+  margin: auto;
+  max-width: 100%;
+}
+/* Pricing plan css */
+.creat-countDown-wrap {
+  margin: 20px 0;
+}
+.clock-timer-img .Polaris-Icon {
+  display: block;
+  height: 10rem;
+  width: 10rem;
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
